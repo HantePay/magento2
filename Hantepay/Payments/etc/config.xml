@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+  <default>
+    <payment>
+      <hantepay_payments_alipay>
+          <active>0</active>
+          <title>AliPay</title>
+          <enable_logging>0</enable_logging>
+          <model>Hantepay\Payments\Model\Methods\Alipay</model>
+        </hantepay_payments_alipay>
+      <hantepay_payments_wechatpay>
+          <active>0</active>
+          <title>WechatPay</title>
+          <enable_logging>0</enable_logging>
+          <model>Hantepay\Payments\Model\Methods\Wechatpay</model>
+        </hantepay_payments_wechatpay>
+      <hantepay_payments_unionpay>
+          <active>0</active>
+          <title>UnionPay</title>
+          <enable_logging>0</enable_logging>
+          <model>Hantepay\Payments\Model\Methods\Unionpay</model>
+      </hantepay_payments_unionpay>
+      <hantepay_payments_creditcard>
+          <active>0</active>
+          <title>Creditcard</title>
+          <enable_logging>0</enable_logging>
+          <model>Hantepay\Payments\Model\Methods\Creditcard</model>
+      </hantepay_payments_creditcard>
+    </payment>
+  </default>
+</config>

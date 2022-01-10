@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<payment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Payment:etc/payment.xsd">
+    <methods>
+        <method name="hantepay_payments_alipay"/>
+        <method name="hantepay_payments_unionpay"/>
+        <method name="hantepay_payments_wechatpay"/>
+        <method name="hantepay_payments_creditcard"/>
+    </methods>
+</payment>
